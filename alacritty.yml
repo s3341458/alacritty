@@ -15,7 +15,7 @@ env:
 # Window dimensions in character columns and lines
 # (changes require restart)
 dimensions:
-  columns: 170
+  columns: 188
   lines: 80
 
 # The FreeType rasterizer needs to know the device DPI for best results
