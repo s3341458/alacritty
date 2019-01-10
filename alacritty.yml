@@ -68,10 +68,6 @@ font:
 # Should display the render timer
 render_timer: false
 
-# Use custom cursor colors. If true, display the cursor in the cursor.foreground
-# and cursor.background colors, otherwise invert the colors of the cursor.
-custom_cursor_colors: false
-
 # Colors (Gruvbox dark)
 colors:
   # Default colors
@@ -234,14 +230,10 @@ mouse:
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
 
-hide_cursor_when_typing: false
 
 # Shell
 #
 # You can set shell.program to the path of your favorite shell, e.g. /bin/fish.
 # Entries in shell.args are passed unmodified as arguments to the shell.
 shell:
-  program: /usr/bin/fish
-  args:
-    - --login
-    - --command=tmux
+  program: fish
