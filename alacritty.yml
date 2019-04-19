@@ -237,3 +237,5 @@ selection:
 # Entries in shell.args are passed unmodified as arguments to the shell.
 shell:
   program: fish
+  args:
+    - --command=tmux
